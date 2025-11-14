@@ -1,0 +1,12 @@
+Source: ros-rolling-py-trees-ros-tutorials
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), pyqt5-dev-tools, python3-pytest <!nocheck>, python3-setuptools, qttools5-dev-tools, ros-rolling-action-msgs <!nocheck>, ros-rolling-py-trees <!nocheck>, ros-rolling-py-trees-ros <!nocheck>, ros-rolling-rclpy <!nocheck>, ros-rolling-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: https://py-trees-ros-tutorials.readthedocs.io/en/release-2.0.x/
+Standards-Version: 3.9.2
+
+Package: ros-rolling-py-trees-ros-tutorials
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, libpyside2-dev, libshiboken2-dev, pyqt5-dev, python3-pyqt5, python3-pyqt5.qtsvg, python3-pyside2.qtsvg, python3-sip-dev, ros-rolling-action-msgs, ros-rolling-geometry-msgs, ros-rolling-launch, ros-rolling-launch-ros, ros-rolling-py-trees, ros-rolling-py-trees-ros, ros-rolling-py-trees-ros-interfaces, ros-rolling-rcl-interfaces, ros-rolling-rclpy, ros-rolling-ros2launch, ros-rolling-ros2param, ros-rolling-ros2run, ros-rolling-ros2service, ros-rolling-ros2topic, ros-rolling-sensor-msgs, ros-rolling-std-msgs, shiboken2, ros-rolling-ros-workspace
+Description: Tutorials for py_trees on ROS2.
