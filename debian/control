@@ -1,0 +1,12 @@
+Source: ros-humble-py-trees-ros-tutorials
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), pyqt5-dev-tools, python3-pytest <!nocheck>, python3-setuptools, qttools5-dev-tools, ros-humble-action-msgs <!nocheck>, ros-humble-py-trees <!nocheck>, ros-humble-py-trees-ros <!nocheck>, ros-humble-rclpy <!nocheck>, ros-humble-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: https://py-trees-ros-tutorials.readthedocs.io/en/release-2.0.x/
+Standards-Version: 3.9.2
+
+Package: ros-humble-py-trees-ros-tutorials
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, libpyside2-dev, libshiboken2-dev, pyqt5-dev, python3-pyqt5, python3-pyqt5.qtsvg, python3-pyside2.qtsvg, python3-sip-dev, ros-humble-action-msgs, ros-humble-geometry-msgs, ros-humble-launch, ros-humble-launch-ros, ros-humble-py-trees, ros-humble-py-trees-ros, ros-humble-py-trees-ros-interfaces, ros-humble-rcl-interfaces, ros-humble-rclpy, ros-humble-ros2launch, ros-humble-ros2param, ros-humble-ros2run, ros-humble-ros2service, ros-humble-ros2topic, ros-humble-sensor-msgs, ros-humble-std-msgs, shiboken2, ros-humble-ros-workspace
+Description: Tutorials for py_trees on ROS2.
