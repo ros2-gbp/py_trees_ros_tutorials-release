@@ -1,0 +1,12 @@
+Source: ros-jazzy-py-trees-ros-tutorials
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), pyqt5-dev-tools, python3-pytest <!nocheck>, python3-setuptools, qttools5-dev-tools, ros-jazzy-action-msgs <!nocheck>, ros-jazzy-py-trees <!nocheck>, ros-jazzy-py-trees-ros <!nocheck>, ros-jazzy-rclpy <!nocheck>, ros-jazzy-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: https://py-trees-ros-tutorials.readthedocs.io/en/release-2.0.x/
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-py-trees-ros-tutorials
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, libpyside2-dev, libshiboken2-dev, pyqt5-dev, python3-pyqt5, python3-pyqt5.qtsvg, python3-pyside2.qtsvg, python3-sip-dev, qtbase5-dev, ros-jazzy-action-msgs, ros-jazzy-geometry-msgs, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-py-trees, ros-jazzy-py-trees-ros, ros-jazzy-py-trees-ros-interfaces, ros-jazzy-rcl-interfaces, ros-jazzy-rclpy, ros-jazzy-ros2launch, ros-jazzy-ros2param, ros-jazzy-ros2run, ros-jazzy-ros2service, ros-jazzy-ros2topic, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, shiboken2, ros-jazzy-ros-workspace
+Description: Tutorials for py_trees on ROS2.
