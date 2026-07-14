@@ -1,3 +1,26 @@
+## py_trees_ros_tutorials (lyrical) - 2.5.0-1
+
+The packages in the `py_trees_ros_tutorials` repository were released into the `lyrical` distro by running `/usr/bin/bloom-release --rosdistro lyrical py_trees_ros_tutorials -e` on `Tue, 14 Jul 2026 02:14:14 -0000`
+
+The `py_trees_ros_tutorials` package was released.
+
+Version of package(s) in repository `py_trees_ros_tutorials`:
+
+- upstream repository: https://github.com/splintered-reality/py_trees_ros_tutorials.git
+- release repository: https://github.com/ros2-gbp/py_trees_ros_tutorials-release.git
+- rosdistro version: `2.4.0-4`
+- old version: `2.4.0-4`
+- new version: `2.5.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## py_trees_ros_tutorials (kilted) - 2.5.0-1
 
 The packages in the `py_trees_ros_tutorials` repository were released into the `kilted` distro by running `/usr/bin/bloom-release --rosdistro kilted py_trees_ros_tutorials -e` on `Tue, 14 Jul 2026 02:13:32 -0000`
