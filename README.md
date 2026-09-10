@@ -1,3 +1,26 @@
+## py_trees_ros_tutorials (jazzy) - 2.6.0-1
+
+The packages in the `py_trees_ros_tutorials` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --rosdistro jazzy -e py_trees_ros_tutorials` on `Thu, 10 Sep 2026 21:41:46 -0000`
+
+The `py_trees_ros_tutorials` package was released.
+
+Version of package(s) in repository `py_trees_ros_tutorials`:
+
+- upstream repository: https://github.com/splintered-reality/py_trees_ros_tutorials.git
+- release repository: https://github.com/ros2-gbp/py_trees_ros_tutorials-release.git
+- rosdistro version: `2.5.0-1`
+- old version: `2.5.0-1`
+- new version: `2.6.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.1.0`
+- vcstools version: `0.1.42`
+
+
 ## py_trees_ros_tutorials (humble) - 2.6.0-1
 
 The packages in the `py_trees_ros_tutorials` repository were released into the `humble` distro by running `/usr/bin/bloom-release --rosdistro humble -e py_trees_ros_tutorials` on `Thu, 10 Sep 2026 21:40:14 -0000`
